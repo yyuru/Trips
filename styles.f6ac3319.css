@@ -1,0 +1,22 @@
+@font-face {
+  font-family: snickles;
+  src: url(Snickles.ttf);
+}
+@font-face {
+  font-family: danielbk;
+  src: url(danielbk.ttf);
+}
+@font-face {
+  font-family: vision;
+  src: url(Vision-Thin.otf);
+}
+@font-face {
+  font-family: FFj;
+  src: url(FFF_Tusj.ttf);
+}
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
