@@ -1,0 +1,20 @@
+# File: .github/workflows/refresh.yml
+name: Refresh
+
+on:
+  schedule:
+    - cron:  '0 3 * * *' # Runs every day at 3am
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger GitHub pages rebuild
+        run: |
+          curl --fail --request POST \
+            --url https://api.github.com/repos/yyuru.github.io/pages/builds \
+            --header "Authorization: Bearer 4e406a390b5e4fadfc14d35785b17cb6490e98e2"
+        env:
+          # You must create a personal token with repo access as GitHub does
+          # not yet support server-to-server page builds.
+          USER_TOKEN: 4e406a390b5e4fadfc14d35785b17cb6490e98e2
