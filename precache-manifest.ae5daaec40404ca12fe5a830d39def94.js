@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/caman.full.js"
   },
   {
-    "revision": "d0d2a4a7b563e072c165",
-    "url": "/css/app.a9cbda5e.css"
+    "revision": "0a93825dd1ef8dfab1a2",
+    "url": "/css/app.adb78aa1.css"
   },
   {
     "revision": "8f89adda08fac0ef4536",
@@ -144,12 +144,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/water.0ba4eeb6.png"
   },
   {
-    "revision": "46afde75704678294279d24b1b8f7e43",
+    "revision": "77242ba75881cb30efe74f3585f06e68",
     "url": "/index.html"
   },
   {
-    "revision": "d0d2a4a7b563e072c165",
-    "url": "/js/app.04d045d6.js"
+    "revision": "0a93825dd1ef8dfab1a2",
+    "url": "/js/app.2d874d97.js"
   },
   {
     "revision": "8f89adda08fac0ef4536",
